@@ -12,6 +12,10 @@
   margin: 0 auto;
 }
 /* Header Section */
+.nav {
+  float: right;
+}
+
 li {
   padding-top: 20px; 
   display: inline-block;
@@ -21,8 +25,8 @@ li {
   font-weight: 600;
 }
 
-.nav {
-  float: right;
+li.contact {
+  padding-right: 0;
 }
 
 a {
@@ -36,7 +40,4 @@ a:focus {
 
 a:hover {
   color: #0e9aa7;
-}
-li.contact {
-  padding-right: 0;
 }
