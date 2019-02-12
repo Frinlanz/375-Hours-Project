@@ -16,7 +16,10 @@
 
 /* Header Section */
 .header {
+  margin: 0 auto;
+  width: 100%;
   margin-top: 15px;
+  position: fixed;
 }
 
 .nav {
@@ -47,4 +50,52 @@ a:focus {
 
 a:hover {
   color: #0e9aa7;
+}
+
+/* Main Page */
+#mainpage {
+  background: url(../img/main/menuback.jpg);
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 200px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  padding-bottom: 20px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+img.line {
+  padding-bottom: 20px;
+}
+
+.click {
+  color: #00e0d0;
+  font-family: 'Hammersmith One', sans-serif;
+  background:  transparent;
+  border: 1px solid #00e0d0;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.click:hover {
+  background-color: #00e0d0;
+  color: white;
+  border: 0px;
+}
+
+img.dot {
+  margin-bottom:-110px;
 }
