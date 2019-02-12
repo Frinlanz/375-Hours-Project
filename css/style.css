@@ -57,46 +57,43 @@ a:hover {
   background: url(../img/main/menuback.jpg);
   background-size: cover;
   height: 100vh;
-}
-
-.container {
-  height: 100hv;
+  text-align: center;
 }
 
 h2 {
-  text-align: center;
   padding-top: 25%;
   font-family: 'Playfair Display', serif;
   color: white;
   padding-bottom: 20px;
-  
 }
+
 p {
-  text-align: center;
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 14px;
-  width: 80%; 
-  margin:0 10% auto 10%;
   line-height:1.5;
-
+  padding-bottom: 30px;
+  margin-bottom: 50px;
 }
+
 img.line {
-  margin-left:45%;  
   padding-bottom: 20px;
 }
 
-button {
+.click {
   color: #00e0d0;
   font-family: 'Hammersmith One', sans-serif;
   background:  transparent;
-  margin:50px 42%;
-  width: 120px;
-  height: 40px;
-  border:2px solid #00e0d0;
+  border:1px solid #00e0d0;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.click:hover {
+  background-color: #00e0d0;
 }
 
 img.dot {
-  margin-left:45%; 
-  margin-top: 100px;
+  margin-bottom:-150px;
 }
