@@ -91,9 +91,9 @@ img.line {
 }
 
 .click:hover {
-  background-color: #00e0d0;
+  background-color: white;
 }
 
 img.dot {
-  margin-bottom:-150px;
+  margin-bottom:-110px;
 }
