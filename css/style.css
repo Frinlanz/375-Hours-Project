@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+/* body */
 body{
   background-color: black;
 }
@@ -11,9 +12,9 @@ body{
   background-color: black;
   margin:0 auto;
 }
-
+/* Header section */
 li{
-  padding-top:20px;
+  padding-top:20px; 
   display: inline-block;
   padding-right: 15px;
   font-size: 14px;
@@ -22,10 +23,8 @@ li{
 }
 .nav{
   float: right;
-
-
 }
-a.click{
+a{
   text-decoration: none;
   color:white;
 }
@@ -33,7 +32,7 @@ a.click{
   width: 100%;
   height: 100vh;
 }
-a.home:visited{
+a:focus{
   color: 	#0e9aa7;
 }
 a:hover{
