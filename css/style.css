@@ -122,17 +122,16 @@ h2.ourstory {
 }
 
 p.storypara {
- font-family: 'Roboto', sans-serif;
- font-weight: 300;
- font-size: 14px;
- color:black;
- padding-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: black;
+  padding-bottom: 40px;
 }
 
 .button {
   color: #00e0d0;
   font-family: 'Hammersmith One', sans-serif;
-  background:  transparent;
   border: 1px solid #00e0d0;
   text-decoration: none;
   padding: 10px;
@@ -142,7 +141,7 @@ p.storypara {
 .button:hover {
   background-color: #00e0d0;
   color: white;
-  border: 0px;
+  border: none;
 }
 
 .bot {
@@ -168,8 +167,8 @@ a.watchlink {
 .watch {
   margin-left: 20px;
   margin-bottom: 20px;
-  
 }
+
 a.watchlink, .watch {
   display: block;
 }
