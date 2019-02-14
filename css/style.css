@@ -106,8 +106,6 @@ img.dot {
 }
 
 .top {
-  width: 100%;
-  position: relative;
   margin: 50px auto;
   display: grid;
   grid-template-columns: 40% 60%;
