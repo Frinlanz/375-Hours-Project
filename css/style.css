@@ -114,17 +114,17 @@ img.dot {
 }
 
 h2.ourstory {
-  Font-Family: Playfair;
-  Font-Weight: Bold;
-  Font-Size: 22px;
-  Color: #413d4b;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #413d4b;
   padding: 0 0 20px 0;
 }
 
 p.storypara {
- Font-Family: Roboto;
- Font-Weight: Light;
- Font-Size: 14px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+ font-size: 14px;
  color:black;
  padding-bottom: 40px;
 }
@@ -156,10 +156,10 @@ p.storypara {
 
 a.watchlink {
   text-decoration: none;
-  Font-Family: Roboto;
-  Font-Weight: Bold;
-  Font-Size: 16px;
-  Color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
   position: absolute;
   top: 190px; 
   right: 47%;
