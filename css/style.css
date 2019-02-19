@@ -20,6 +20,7 @@
   width: 100%;
   margin-top: 15px;
   position: fixed;
+  z-index: 1;
 }
 
 .nav {
@@ -140,7 +141,7 @@ p.storypara {
 .button:hover {
   background-color: #00e0d0;
   color: white;
-  border: none;
+
 }
 
 .bot {
