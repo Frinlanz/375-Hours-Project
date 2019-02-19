@@ -20,6 +20,7 @@
   width: 100%;
   margin-top: 15px;
   position: fixed;
+  z-index: 1;
 }
 
 .nav {
@@ -39,16 +40,16 @@ li.contact {
   padding-right: 0;
 }
 
-a {
+a.menu {
   text-decoration: none;
   color: white;
 }
 
-a:focus {
+a.menu:focus {
   color: #0e9aa7;
 }
 
-a:hover {
+a.menu:hover {
   color: #0e9aa7;
 }
 
@@ -67,7 +68,7 @@ h2 {
   padding-bottom: 20px;
 }
 
-p {
+p.mainpara {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 14px;
@@ -99,3 +100,76 @@ img.line {
 img.dot {
   margin-bottom:-110px;
 }
+
+/* Aboutus Section */
+#aboutus {
+  height: 100vh;
+}
+
+.top {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+h2.ourstory {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #413d4b;
+  padding: 0 0 20px 0;
+}
+
+p.storypara {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.button {
+  color: #00e0d0;
+  font-family: 'Hammersmith One', sans-serif;
+  border: 1px solid #00e0d0;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #00e0d0;
+  color: white;
+
+}
+
+.bot {
+  height: 550px;
+  background: url(../img/aboutus/video.jpg);
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+a.watchlink {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  top: 190px; 
+  right: 40%;
+  transform: translateX(-50%);
+}
+
+.watch {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+a.watchlink, .watch {
+  display: block;
+}
+
