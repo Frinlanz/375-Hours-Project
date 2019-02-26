@@ -325,7 +325,7 @@ h3.works {
 }
 
 img.arrow {
-  vertical-align: sub;
+  vertical-align: -1px;
   margin-left: 5px;
 }
 
@@ -345,33 +345,33 @@ img.arrow {
 }
 
 .blocks {
-  height: 500px;
+  height: 400px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .block1 {
-  height: 250px;
+  height: 200px;
   background-color: #b6b6b6;
 }
 
 .block2 {
-  height: 250px;
+  height: 200px;
   background-color: #acacac;
 }
 
 .block3 {
-  height: 250px;
+  height: 200px;
   background-color: #a1a1a1;
 }
 
 .block4 {
-  height: 250px;
+  height: 200px;
   background-color: #8a8a8a;
 }
 
 .block5 {
-  height: 250px;
+  height: 200px;
   background-color: #a4a4a4;
 }
 
