@@ -310,19 +310,3 @@ p.position {
   margin-top: 50px;
   margin-bottom: 30px;
 }
-
-.hiring {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  color: #00e0d0;
-  border: 1px solid #00e0d0;
-  text-decoration: none;
-  padding: 8px;
-}
-
-.hiring:hover {
-  background-color: #00e0d0;
-  color: white;
-  border: 0px;
-}
