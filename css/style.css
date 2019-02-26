@@ -312,7 +312,6 @@ p.position {
 }
 
 /* Works Page */
-
 h3.works {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
@@ -322,13 +321,7 @@ h3.works {
 }
 
 .project {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  letter-spacing: 1px;
   display: inline;
-  text-align: right;
- 
 }
 
 img.arrow {
@@ -337,6 +330,59 @@ img.arrow {
 }
 
 .pro {
-  float:right;
   text-decoration: none;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+#workpage .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.blocks {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.block1 {
+  width: 100%;
+  height: 250px;
+  background-color: #b6b6b6;
+}
+
+.block2 {
+  width: 100%;
+  height: 250px;
+  background-color: #acacac;
+}
+
+.block3 {
+  width: 100%;
+  height: 250px;
+  background-color: #a1a1a1;
+}
+
+.block4 {
+  width: 100%;
+  height: 250px;
+  background-color: #8a8a8a;
+}
+
+.block5 {
+  width: 100%;
+  height: 250px;
+  background-color: #a4a4a4;
+}
+
+#workpage .work{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
