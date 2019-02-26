@@ -241,15 +241,14 @@ a.watchlink, .watch {
 }
 
 /* Team Page */
-
 #teampage {
   background: url(../img/teampage/teampage.jpg);
   background-size: cover;
-  height: 750px;
+  height: 800px;
   text-align: center;
 }
 
-h1.team {
+h3.team {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: bold;
@@ -286,7 +285,6 @@ p.description {
   height: 220px;
   background-color: white;
 }
-
 
 h3.cardname {
   font-family: 'Roboto', sans-serif;
