@@ -310,3 +310,33 @@ p.position {
   margin-top: 100px;
   margin-bottom: 30px;
 }
+
+/* Works Page */
+
+h3.works {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 1px;
+  display: inline;
+}
+
+.project {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline;
+  text-align: right;
+ 
+}
+
+img.arrow {
+  vertical-align: sub;
+  margin-left: 5px;
+}
+
+.pro {
+  float:right;
+  text-decoration: none;
+}
