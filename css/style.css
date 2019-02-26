@@ -245,7 +245,7 @@ a.watchlink, .watch {
 #teampage {
   background: url(../img/teampage/teampage.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 750px;
   text-align: center;
 }
 
@@ -264,7 +264,7 @@ p.description {
   letter-spacing: 1px;
   color: white;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .cards {
@@ -292,7 +292,7 @@ h3.cardname {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 14px;
-  margin-top: 10px;
+  margin-top: 20px;
   color: white;
 }
 
