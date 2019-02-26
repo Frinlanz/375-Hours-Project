@@ -254,7 +254,7 @@ h3.team {
   font-weight: bold;
   letter-spacing: 1px;
   color: white;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 p.description {
@@ -262,7 +262,7 @@ p.description {
   font-size: 14px;
   letter-spacing: 1px;
   color: white;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -270,7 +270,7 @@ p.description {
   width: 100%;
   height: 300px;
   display: grid;
-  margin-top: 20px;
+  margin-top: 50px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
