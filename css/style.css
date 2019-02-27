@@ -310,3 +310,118 @@ p.position {
   margin-top: 100px;
   margin-bottom: 30px;
 }
+
+/* Works Page */
+h3.works {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 1px;
+  display: inline;
+}
+
+.project {
+  display: inline;
+}
+
+img.arrow {
+  vertical-align: -1px;
+  margin-left: 5px;
+}
+
+.pro {
+  text-decoration: none;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+#workpage .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.blocks {
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.block1 {
+  height: 200px;
+  background-color: #b6b6b6;
+}
+
+.block2 {
+  height: 200px;
+  background-color: #acacac;
+}
+
+.block3 {
+  height: 200px;
+  background-color: #a1a1a1;
+}
+
+.block4 {
+  height: 200px;
+  background-color: #8a8a8a;
+}
+
+.block5 {
+  height: 200px;
+  background-color: #a4a4a4;
+}
+
+#workpage .work{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Testimonial Page */
+
+#testimonial {
+  height: 100vh;
+  background: url(/img/testimonials/testimonials.jpg);
+  background-size: cover;
+}
+
+#testimonial .container{
+  text-align: center; 
+}
+
+img.quotation {
+  margin-top: 100px;
+}
+
+p.quatationtxt {
+  margin-top: 50px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+h3.name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+p.position {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: white;
+}
+
+img.opt {
+  margin-top: 50px;
+}
