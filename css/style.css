@@ -385,7 +385,7 @@ img.arrow {
 
 #testimonial {
   height: 743px;
-  background: url(../img/testimonials/testimonials.jpg);
+  background: url(../img/testimonials/testimonials.jpg)center;
   background-size: cover;
 }
 
