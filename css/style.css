@@ -384,8 +384,8 @@ img.arrow {
 /* Testimonial Page */
 
 #testimonial {
-  height: 100vh;
-  background: url(/img/testimonials/testimonials.jpg);
+  height: 600px;
+  background: url(../img/testimonials/testimonials.jpg)center;
   background-size: cover;
 }
 
