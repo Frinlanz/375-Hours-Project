@@ -425,3 +425,46 @@ p.position {
 img.opt {
   margin-top: 50px;
 }
+
+/* Contact Page */
+
+#contactpage {
+  height: 743px;
+}
+
+#contactpage .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.clienttxt, .news {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.txtbox {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+#message {
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+.company {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+img.clients {
+  padding-bottom: 50px;
+}
+
