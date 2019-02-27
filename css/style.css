@@ -455,6 +455,7 @@ img.opt {
 }
 
 #message {
+  padding-top: 10px;
   padding-left: 10px;
   margin-bottom: 40px;
 }
