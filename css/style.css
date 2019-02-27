@@ -501,6 +501,10 @@ p.footerpara {
   color: white;
 }
 
+.columns {
+  margin-top: 50px;
+}
+
 .column {
   display: grid;
   grid-template-columns: 10% 90%;
