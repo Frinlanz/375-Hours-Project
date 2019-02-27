@@ -502,7 +502,7 @@ p.footerpara {
 }
 
 .columns {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .column {
@@ -552,7 +552,7 @@ img.phone {
 .txtnews {
   margin-top: 60px;
   background: transparent;
-  height: 20px;
+  height: 22px;
   padding: 10px;
   color: white;
   border: 1px solid rgb(248, 243, 243);
@@ -560,7 +560,7 @@ img.phone {
 }
 
 img.icns {
-  vertical-align: middle;
+  vertical-align: -17px;
 }
 
 img.list {
